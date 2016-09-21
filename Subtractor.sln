@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF0A07FD-476C-42AE-A9DD-0F37318012EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{04247D98-24A1-44A3-9D0F-E23A5652C572}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Subtractor", "src\Subtractor\Subtractor.xproj", "{FAEF2EAB-09AC-408C-8CEF-12B643B23EC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAEF2EAB-09AC-408C-8CEF-12B643B23EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEF2EAB-09AC-408C-8CEF-12B643B23EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEF2EAB-09AC-408C-8CEF-12B643B23EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEF2EAB-09AC-408C-8CEF-12B643B23EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAEF2EAB-09AC-408C-8CEF-12B643B23EC6} = {BF0A07FD-476C-42AE-A9DD-0F37318012EA}
+	EndGlobalSection
+EndGlobal
